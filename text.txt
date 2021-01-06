@@ -1,0 +1,17 @@
+interface GigabitEthernet1/0/2
+ switchport access vlan 100
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 300
+ srr-queue bandwidth share 1 30 35 5
+ queue-set 2
+ priority-queue out 
+ mls qos trust cos
+ auto qos trust 
+ storm-control broadcast level 50.00
+ storm-control multicast level 50.00
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ spanning-tree bpduguard enable
+ spanning-tree bpduguard enable
+ spanning-tree bpduguard enable
