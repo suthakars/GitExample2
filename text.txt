@@ -15,3 +15,6 @@ interface GigabitEthernet1/0/2
  spanning-tree bpduguard enable
  spanning-tree bpduguard enable
  spanning-tree bpduguard enable
+
+
+ Added a new line
